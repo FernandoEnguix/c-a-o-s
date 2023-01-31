@@ -71,7 +71,7 @@ li {
     width: fit-content;
 }
 
-li::marker {
+#expLabDocente li::marker {
     color: #911;
     content: ">> ";        
 }
@@ -84,6 +84,19 @@ li::marker {
 
 strong {
     text-decoration: underline;
+}
+
+#datosBio li::marker {
+    content: "";        
+}
+
+#expLab li::marker {
+    content: "";        
+}
+
+#expLabDocente li::marker {
+    color: #911;
+    content: ">> ";        
 }
 
 #btnContainer {
@@ -128,6 +141,7 @@ button {
     /* baja el botón al apretarlo */
    transform: translateY(0);
   }
+
 
   @media screen and (max-width: 600px) {
     body {
