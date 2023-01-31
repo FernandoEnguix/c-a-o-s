@@ -4,18 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C.A.O.S.: Currículum Apócrifo Online Semiautomático</title>
+    <title>C.A.O.S.: Currículum Apócrifo Online Semiautomatizado</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1><span id="nombreH1"></span> // Currículum Vitae</h1>
-    <br>  <br>  <br>  <br>  
+    <h1><span id="nombreH1"></span></h1>
+    <h2>Currículum Vitae</h2>
+    
     <main class="main-content"> 
         <section class="datos">
-            <section id="foto">
-                <img src="" alt="Foto del candidato"> 
-            </section>
-            
+            <img id="foto" src="" alt="Foto del candidato">     
             <ul id="datosBio">
                 <li><strong>Nombre Completo</strong>: <span id="nombreBio"></span></li>
                 <li><strong>Fecha de Nacimiento</strong>: <span id="fechaBio"></span></li> 
@@ -23,11 +21,10 @@
                 <li><strong>Estado Civil</strong>: <span id="estadoCivilBio"></span></li>
                 <li><strong>Teléfono</strong>: <span id="telefonoBio"></span></li>
                 <li><strong>Correo electrónico</strong>: <span id="mailBio"></span></li>
-            </div>
+            </ul>
         </section>
-            
-        <br><br>
 
+        
         <section class="experiencia">
             <ul id="expLab">
                 <li><strong>Experiencia laboral docente</strong>: 
@@ -46,8 +43,13 @@
             </ul>
         </section>
         
-        <button id="btn">¿No te convence este candidato? <br> ¡Apretá acá para buscar otro!</button>
-
+        <section>
+        
+        </section>
+        
+        <div id="btnContainer">
+            ¿No te convence este candidato? ¡Apretá <button><span id="btn">acá</span></button> para buscar otro!
+        </div>
     </main>
     
     <script src="script.js"></script>
